@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8"> <!--as tags meta são comandos do HTML para descrever conteúdos para mecanismos de busca para programas externos-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu portfólio</title>
+    <link rel="stylesheet" href="style.css"> <!-- folha de estilo em CSS-->
+    <link rel="shortcut icon" href="./img/giseleperfil.jpeg"> <!--imprime a imagem na aba do navegador-->
+    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" data-auto-replace-svg="nest"></script> 
+       <!-- tag para inserirmos icones de uma lib / biblioteca externa no nosso HTML -->
+</head>
+
+<body>
+    <header class="headerMenu"> <!--cabeçalho vísivel ao usuário-->
+        <nav>
+            <ul class="listaMenu">
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#portifolio">Portfólio</a></li>
+                <li><a href="#contatos">Contatos</a></li>
+            </ul>
+        </nav>
+    </header> <!--cabeçalho-->
+
+    <main> <!--corpo do site-->
+        <section class="principal"> <!--inicio da 1º sessão APRESENTAÇÃO-->
+            <article class="subcontainer-principal container">
+            <div>
+                <img src="./img/giseleperfil.jpeg" alt="Eu maravilhosa de perfil! xD" class="foto">
+            </div>
+            <div>
+                <h1 class="nomeCompleto">Gisele Silva</h1>
+                <h2 class="profissao">Assistente Social em transição de carreira para Desenvolvedora Front-End</Front-End></h2>
+            </div> 
+            <div>
+                <p class="textoSobre">
+                    Oi gente =D <br>
+                    Me chamo Gisele, tenho 30 anos, sou de Recife - Pernambuco, canceriana com ascendente em sagitário e sempre bem-humorada,
+                    sou formada em Serviço Social com Pós-graduação EAD (em andamento) em Gestão de Projetos Sociais. <br>
+                    Enquanto assistente social pude contribuir com a execução da Política de Saneamento Básico no Município de Olinda-PE, através do
+                    acompanhamento do trabalho social que visava acompanhar as obras para ampliar o abastecimento de água e esgoto na região através
+                    do Plano de Trabalho Social - PTS, visando também o fortalecimento do controle social dos atores sociais envolvidos.<br>
+                    Dentre outras experiências profissionais anteriores ao Serviço Social estão: monitoria de qualidade da empresa telefônica Oi; 
+                    consultora de relacionamento para clientes MEI na TIM; e atendente de loja.
+                </p>
+            </div>
+            </article>
+        </section> <!--final da 1º sessão APRESENTAÇÃO-->
+
+        <section id="formacao"> <!--2º sessão FORMAÇÃO-->   <!-- O ID é a forma de conectar nossa barra de navegação a esse trecho do código -->
+            <article class="container article-lista">
+            
+            <div>
+               <h3 class="topicoPrincipal">Formação</h3>
+            </div>
+            
+            <div>
+                <ul class="listaItem">
+                    <li>
+                        <p class="listaTitulo">Ciclo Formativo de Introdução à Lógica de Programação - Pretalab / Olabi</p>
+                        <a href="https://github.com/xlsilvaaa" target="_blank" class="listaLocal">Github</a>
+                        <p class="listaDescricao">
+                            Curso livre de formação introdutória à tecnologia baseada nos pilares de conhecimento técnico, autoconhecimento e autogestão.
+                            Os módulos técnicos foram separados em III, sendo eles:<br>
+                            - Lógica de Programação (variáveis, constantes, padrões de nomeclatura, operadores relacionais, estrutura condicional,
+                            e estruturas de repetição).<br>
+                            - HTML, onde foram abordados os conteúdos: (Tags, estrutura, título, boas práticas: indentação,
+                            comentários, níveis de título, parágrafos, quebra de linha, formatação de texto, ícones, links, listas,tabelas, imagens,
+                            acessibilidade, semântica, entidades, forms e botões). <br>
+                            - CSS, com os conteúdos de: CSS inline, interno e externo, Sintaxe básica, sistemas de cores,
+                            medidas absolutas, alinhamento, fontes, identificadores, classes, Espaçamento, altura e largura, bordas a elementos, 
+                            tamanho do box, e margem inspecionando.
+                        </p>
+                    </li>
+                    <li> <br>
+                        <p class="listaTitulo">Serviço Social - Centro Universitário São Miguel / 2021</p>
+                        <a href="https://www.linkedin.com/in/gisele-silva-9609ab211/" target="_blank" class="listaLocal">Currículo no Linkedin</a>
+                        <p class="listaDescricao">
+                            Experiência em espaços socio-ocupacionais públicos (Companhia Pernambucana Saneamento), Terceiro Setor (OSCIP)
+                            e no Sistema S (Sesc/PE).<br>
+                            Habilidades desenvolvidas: Execução e acompanhamento de Plano de Trabalho Social (PTS), supervisão de estágio no campo 
+                            do Serviço Social, elaboração de relatórios mensais, planejamento de atividades, articulação e mobilização de atores
+                            sociais visando fortalecer a participação em reuniões de controle social, participação em reuniões de gestão, 
+                            oficinas de capacitação, visitas institucionais, atendimento social e encaminhamento para a rede.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            
+            </article>
+        </section> <!--final da 2º sessão FORMAÇÃO-->
+
+        <section id="portfolio" class="principal"> <!--3º sessão MEUS PROJETOS-->
+            <article class="container article-lista">
+            <div>
+                <h3 class="topicoPrincipal">Meus Projetos</h3>
+            </div>
+
+            <div>
+                <ul class="listaItem">
+                    <li>
+                        <p class="listaTitulo">Calculadora</p>
+                        <a href="https://wondrous-fudge-ba40c3.netlify.app/" target="_blank" class="listaLocal"> Link para o projeto</a>
+                        <p class="listaDescricao"> <!--também posso buscar o link no netlify-->
+                            Meu primeiro projeto desenvolvido durante o Ciclo Formativo Básico da Pretalab, com a finalidade de aprimorar os 
+                            conhecimentos em ferramentas de desenvolvimento web - HTML e CSS.
+                        </p>
+                    </li>
+                    <li><br>
+                        <p class="listaTitulo">Site simples</p>
+                        <a href="https://wondrous-fudge-ba40c3.netlify.app/" target="_blank" class="listaLocal"> falta incluir site</a>
+                        <p class="listaDescricao">
+                            Site desenvolvido através do curso livre de desenvolvimento web para criar um site simples usando as linguagens do HTML, CSS e JavaScript,
+                            realizado pela Fundação Bradesco.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            </article>
+        </section> <!--final da 3º sessão MEUS PROJETOS-->
+
+    </main> <!--corpo do site-->
+
+        <section id="contatos">
+        <footer class="rodape">
+        <div class="container">
+            <ul class="listaRodape">
+                <!-- a tag <i> junto com a class chama o ícone da lib externa que chamamos na tag head -->
+                <li><i class="fas fa-envelope-square estiloIcone"></i>
+                  <a href="giselesilva080792@gmail.com" target="_blank">giselesilva080792@gmail.com</a>
+                </li>
+                <li><i class="fab fa-linkedin estiloIcone"></i>
+                  <a href="https://www.linkedin.com/in/gisele-silva-9609ab211/" target="_blank">linkedin</a>
+                </li>
+                <li><i class="fab fa-github-square estiloIcone"></i>
+                  <a href="https://github.com/xlsilvaaa" target="_blank">@xlsilvaaa</a>
+                </li>
+              </ul>
+        </div>
+        </section>
+     </footer>
+
+    
+</body>
+
+</html>

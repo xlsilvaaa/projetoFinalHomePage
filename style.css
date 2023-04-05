@@ -1,0 +1,164 @@
+* {
+    /* o asterisco significa que queremos esta configuração para toda a página*/
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body {
+    font-family: "Speedee",arial,helvetica,sans-serif;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+    /* pra desaparecer os icones que ficam na lista*/
+}
+
+.headerMenu {
+    /* CLASS */
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    padding: 8px;
+    padding-top: 32px;
+    background-color: #ffd560;
+}
+
+.headerMenu nav { /* CLASS*/
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.foto {
+    width: 200px;
+    height: 250px;
+    margin-top: 5%;
+}
+
+.listaMenu { /* só para configurar a caixa geral do cabeçalho*/
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    align-items: center;
+}
+
+.listaMenu li>a {  /* chamei as linhas e os links a que estão na tabela para configurar c esses atributos*/
+    color: #673a20;
+    font-size: 14px;
+    text-decoration: inherit; /*pra tirar o sublinhado dos links */
+    font-weight: 700;
+}
+
+.principal {
+    height: 100vh;
+    display: flex;
+    background-color: #EAEAEA;
+}
+
+.container {
+    margin-right: auto;
+    /* margem automática para todos os lados*/
+    margin-left: auto;
+    margin-top: 75px;
+    /*margem para cima*/
+    max-width: 960px;
+    /*largura máxima em qualquer tela*/
+    padding-right: 10px;
+    /*espaçamento direito*/
+    padding-left: 10px;
+    /*espaçamento esquerdo*/
+    width: 100%;
+    /*largura da caixa na tela*/
+}
+
+.subcontainer-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.nomeCompleto { /*<h1>*/
+    font-size: 36px;  /*tamanho da fonte*/
+    color: #d39246;
+    font-weight: 700; /*espessura da fonte*/
+    height: 45px;
+}
+
+.profissao { /*<h2>*/ 
+    color: #975f31;
+    height: 60px;
+}
+
+.textoSobre { /*<p>*/
+    font-size: 18px;
+    line-height: 30px; /*espaçamento entre as linhas de cima pra baixo*/
+}
+
+.article-lista {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.topicoPrincipal { /*<h3> formação*/
+    font-size: 36px;
+    color: #d39246;
+}
+
+.listaItem { 
+    padding: 32px;  /*inseri espaçamento em toda a caixa da lista*/
+}
+
+.listaTitulo { /*títulos dentro da minha formação*/
+    margin-bottom: 5px;
+    font-size: 22px;
+    color: #975f31;
+    font-weight: 700;
+}
+
+.listaLocal { /*link do ciclo formativo pretalab*/
+    font-size: 18px;
+    color: #2f80ed;
+}
+
+.listaDescricao { /*paragrafo descritivo da formação do curso pretalab*/
+    font-size: 18px;
+    margin-top: 5px;
+    line-height: 30px; /*espaço entre as linhas*/
+    color: #828282;
+    font-weight: 300;
+}
+
+.rodape { /*tudo o que está aqui dentro configura a caixa geral*/
+    background-color: #ffd560;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+}
+
+.listaRodape li {
+    color: #975f31;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.estiloIcone {
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+
+/*  
+#ffd560 amarelo HEAD E FOOTER
+#d39246 bege TÍTULOS NOMECOMPLETO / FORMAÇÃO / MEUS PROJETOS
+#975f31 marrom claro subtitulos ASSISTENTE SOCIAL EM TRANSIÇÃO / CLICLO FORMATIVO ... / SS FORMAÇÃO / CALCULADORA 
+*/
