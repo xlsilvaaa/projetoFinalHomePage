@@ -53,9 +53,22 @@ li {
 }
 
 .principal {
-    height: 100vh;
+    height: 120vh;
     display: flex;
     background-color: #EAEAEA;
+}
+
+.formacao {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.portfolio {
+    background-color: #EAEAEA;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
 }
 
 .container {
@@ -156,6 +169,10 @@ li {
     margin-right: 10px;
 }
 
+.links {
+    text-decoration:none;
+    color: #975f31;
+}
 
 /*  
 #ffd560 amarelo HEAD E FOOTER
